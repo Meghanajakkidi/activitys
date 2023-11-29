@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color:red;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: black;
+}
+button:hover{
+    background-color: darkorchid;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    height: 70px;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.demo:hover{
+    background-color: darkorchid;
+}
+.sample{
+    border-radius: 30px;
+    background-color: indianred;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 5%;
+}
